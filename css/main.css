@@ -1977,6 +1977,10 @@ input::-moz-focus-inner {
   margin-top: 0;
 }
 
+.intro-title {
+  margin-bottom: 0;
+}
+
 .intro-scroll {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
