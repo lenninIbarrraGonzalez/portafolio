@@ -1,25 +1,50 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
   <head>
+    <!--- basic page needs
+    ================================================== -->
     <meta charset="utf-8" />
     <title>Lennin Ibarra</title>
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <link rel="stylesheet" href="base.min.css" />
-    <link rel="stylesheet" href="vendor.min.css" />
-    <link rel="stylesheet" href="main.min.css" />
-    <script src="modernizr.min.js"></script>
-    <script src="pace.min.js"></script>
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/vendor.css" />
+    <link rel="stylesheet" href="css/main.css" />
+
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
+
+    <!-- favicons
+    ================================================== -->
     <link rel="apple-touch-icon" sizes="180x180" href="favicon-16x16.ico" />
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-16x16.ico" />
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.ico" />
     <link rel="manifest" href="site.webmanifest" />
   </head>
+
   <body id="top">
-    <div id="preloader"><div id="loader"></div></div>
+    <div id="preloader">
+      <div id="loader"></div>
+    </div>
+
+    <!-- site header
+    ================================================== -->
     <header class="s-header">
-      <div class="header-logo"></div>
+      <div class="header-logo">
+        <!-- <a class="site-logo" href="index.html">
+          <img src="images/logo.svg" alt="Homepage" />
+        </a> -->
+      </div>
+
       <nav class="header-nav-wrap">
         <ul class="header-main-nav">
           <li class="current">
@@ -39,45 +64,61 @@
             >
           </li>
         </ul>
+
         <ul class="header-social">
           <li>
             <a
               href="https://www.linkedin.com/in/lennin-geovanny-ibarra/"
               target="_blank"
               rel="noopener"
-              ><i class="fab fa-linkedin-in"></i
-            ></a>
+            >
+              <i class="fab fa-linkedin-in"></i>
+            </a>
           </li>
           <li>
             <a
               href="https://github.com/lenninIbarrraGonzalez"
               target="_blank"
               rel="noopener"
-              ><i class="fab fa-github"></i
-            ></a>
+            >
+              <i class="fab fa-github"></i>
+            </a>
           </li>
         </ul>
       </nav>
+
       <a class="header-menu-toggle" href="#"><span>Menu</span></a>
     </header>
+    <!-- end s-header -->
+
+    <!-- intro
+    ================================================== -->
     <section id="intro" class="s-intro target-section">
       <div class="row intro-content">
         <div class="column large-9 mob-full intro-text">
           <h3>Hola, soy Lennin Ibarra</h3>
           <h1>
-            <p class="intro-title">Desarrollador</p>
-            <p>Frontend</p>
+            <p class="intro-title">Front-End Architect | React,</p>
+            <p>TypeScript & AI-Driven Development</p>
+            <!-- Based In Somewhere. -->
           </h1>
         </div>
+
         <div class="intro-scroll">
-          <a href="#about" class="intro-scroll-link smoothscroll"
-            >Scroll para ver más</a
-          >
+          <a href="#about" class="intro-scroll-link smoothscroll">
+            Scroll para ver más
+          </a>
         </div>
+
         <div class="intro-grid"></div>
         <div class="intro-pic"></div>
       </div>
+      <!-- end row -->
     </section>
+    <!-- end intro -->
+
+    <!-- about
+    ================================================== -->
     <section id="about" class="s-about target-section">
       <div class="about-me">
         <div class="row heading-block" data-aos="fade-up">
@@ -85,6 +126,7 @@
             <h2 class="section-heading">Acerca de mí</h2>
           </div>
         </div>
+
         <div class="row about-me__content" data-aos="fade-up">
           <div class="column large-full about-me__text">
             <p class="lead">
@@ -100,6 +142,7 @@
               desarrollando interfaces innovadoras para plataformas de
               e-commerce de alto tráfico.
             </p>
+
             <p>
               He tenido el privilegio de contribuir significativamente al sector
               público colombiano, desarrollando soluciones tecnológicas que
@@ -112,6 +155,7 @@
               geolocalización que permitió a los habitantes reportar
               problemáticas urbanas de manera eficiente.
             </p>
+
             <p>
               En el ámbito empresarial, he colaborado estrechamente con la
               Cámara de Comercio de Pasto, implementando una plataforma web
@@ -123,6 +167,7 @@
               para entregar soluciones escalables que impulsan el crecimiento
               empresarial.
             </p>
+
             <p>
               Mi enfoque profesional combina el liderazgo técnico con una
               profunda comprensión de las necesidades del usuario final. Me
@@ -136,6 +181,7 @@
             </p>
           </div>
         </div>
+
         <div class="row about-me__buttons">
           <div class="column large-half tab-full" data-aos="fade-up">
             <a
@@ -147,7 +193,7 @@
           </div>
           <div class="column large-half tab-full" data-aos="fade-up">
             <a
-              href="assets/cvLennin.pdf"
+              href="assets/Front-End-Architect-React.pdf"
               class="btn btn--primary full-width"
               download
               >Descargar CV</a
@@ -155,18 +201,22 @@
           </div>
         </div>
       </div>
+      <!-- end about-me -->
+
       <div class="about-experience">
         <div class="row heading-block" data-aos="fade-up">
           <div class="column large-full">
             <h2 class="section-heading">Experiencia y educación</h2>
           </div>
         </div>
+
         <div class="row about-experience__timeline">
           <div class="column large-half tab-full" data-aos="fade-up">
             <div class="timeline">
               <div class="timeline__icon-wrap">
                 <span class="timeline__icon timeline__icon--work"></span>
               </div>
+
               <div class="timeline__block">
                 <div class="timeline__bullet"></div>
                 <div class="timeline__header">
@@ -186,6 +236,7 @@
                   </p>
                 </div>
               </div>
+
               <div class="timeline__block">
                 <div class="timeline__bullet"></div>
                 <div class="timeline__header">
@@ -210,6 +261,7 @@
                   </p>
                 </div>
               </div>
+
               <div class="timeline__block">
                 <div class="timeline__bullet"></div>
                 <div class="timeline__header">
@@ -239,11 +291,13 @@
               </div>
             </div>
           </div>
+
           <div class="column large-half tab-full" data-aos="fade-up">
             <div class="timeline">
               <div class="timeline__icon-wrap">
                 <span class="timeline__icon timeline__icon--education"></span>
               </div>
+
               <div class="timeline__block">
                 <div class="timeline__bullet"></div>
                 <div class="timeline__header">
@@ -265,6 +319,7 @@
                   </p>
                 </div>
               </div>
+
               <div class="timeline__block">
                 <div class="timeline__bullet"></div>
                 <div class="timeline__header">
@@ -287,6 +342,7 @@
                   </p>
                 </div>
               </div>
+
               <div class="timeline__block">
                 <div class="timeline__bullet"></div>
                 <div class="timeline__header">
@@ -305,10 +361,13 @@
                   </p>
                 </div>
               </div>
+
               <div class="timeline__block">
                 <div class="timeline__bullet"></div>
                 <div class="timeline__header">
+                  <!-- <p class="timeline__timeframe">marzo 2020</p> -->
                   <h3 class="item-title">Skills Técnicos</h3>
+                  <!-- <h5>Programa Intensivo de Desarrollo Web</h5> -->
                 </div>
                 <div class="timeline__desc">
                   <p>
@@ -331,17 +390,26 @@
           </div>
         </div>
       </div>
+      <!-- end about-experience -->
     </section>
+    <!-- end s-about -->
+
+    <!-- services
+    ================================================== -->
     <section id="services" class="s-services ss-dark target-section">
       <div class="shadow-overlay"></div>
+
       <div class="row heading-block heading-block--center" data-aos="fade-up">
         <div class="column large-full">
           <h2 class="section-heading section-heading--centerbottom">
             Habilidades
           </h2>
+
           <p class="section-desc">Más que código, soluciones que impactan</p>
         </div>
       </div>
+      <!-- end heading-block -->
+
       <div
         class="row services-list block-large-1-3 block-medium-1-2 block-tab-full"
       >
@@ -355,6 +423,7 @@
             </p>
           </div>
         </div>
+
         <div class="column item-service" data-aos="fade-up">
           <div class="item-service__content">
             <h4 class="item-title">E-commerce & Vtex</h4>
@@ -365,6 +434,7 @@
             </p>
           </div>
         </div>
+
         <div class="column item-service" data-aos="fade-up">
           <div class="item-service__content">
             <h4 class="item-title">Experiencia de Usuario</h4>
@@ -375,6 +445,7 @@
             </p>
           </div>
         </div>
+
         <div class="column item-service" data-aos="fade-up">
           <div class="item-service__content">
             <h4 class="item-title">Consultoría Técnica</h4>
@@ -385,6 +456,7 @@
             </p>
           </div>
         </div>
+
         <div class="column item-service" data-aos="fade-up">
           <div class="item-service__content">
             <h4 class="item-title">Desarrollo Web Completo</h4>
@@ -395,6 +467,7 @@
             </p>
           </div>
         </div>
+
         <div class="column item-service" data-aos="fade-up">
           <div class="item-service__content">
             <h4 class="item-title">Modernización de Sistemas</h4>
@@ -405,13 +478,20 @@
           </div>
         </div>
       </div>
+      <!-- end services-list -->
     </section>
+    <!-- end s-services -->
+
+    <!-- CTA
+    ================================================== -->
     <section class="s-cta ss-dark">
       <div class="row heading-block heading-block--center" data-aos="fade-up">
         <div class="column large-full">
           <h2 class="section-desc">¿Listo para crear algo increíble juntos?</h2>
         </div>
       </div>
+      <!-- end heading-block -->
+
       <div class="row cta-content" data-aos="fade-up">
         <div class="column large-full">
           <p>
@@ -420,9 +500,20 @@
             consultor para tu próximo proyecto, me encantaría conocer más sobre
             tu visión.
           </p>
+
+          <!-- <a
+            href="https://www.dreamhost.com/r.cgi?287326"
+            class="btn full-width"
+            >Get Started</a
+          > -->
         </div>
       </div>
+      <!-- end ad-content -->
     </section>
+    <!-- end s-cta -->
+
+    <!-- testimonies
+    ================================================== -->
     <section class="s-testimonials">
       <div class="row testimonials" data-aos="fade-up">
         <div class="column large-full testimonials__slider">
@@ -436,12 +527,14 @@
               a compartir su conocimiento."
             </p>
             <div class="testimonials__info">
-              <cite class="testimonials__cite"
-                ><strong>Giovanny Chacon</strong>
-                <span>Gerente de Proyectos, Indra</span></cite
-              >
+              <cite class="testimonials__cite">
+                <strong>Giovanny Chacon</strong>
+                <span>Gerente de Proyectos, Indra</span>
+              </cite>
             </div>
           </div>
+          <!-- end testimonials__slide -->
+
           <div class="testimonials__slide">
             <p>
               "Lennin se destaca por su profesionalismo en todas sus tareas. Es
@@ -453,12 +546,14 @@
               cualquier proyecto."
             </p>
             <div class="testimonials__info">
-              <cite class="testimonials__cite"
-                ><strong>Cristian Cepeda</strong>
-                <span>Catapulta Founder</span></cite
-              >
+              <cite class="testimonials__cite">
+                <strong>Cristian Cepeda</strong>
+                <span>Catapulta Founder</span>
+              </cite>
             </div>
           </div>
+          <!-- end testimonials__slide -->
+
           <div class="testimonials__slide">
             <p>
               "Lennin es una persona comprometida con su trabajo, con gran
@@ -469,26 +564,35 @@
               para cualquier desafío tecnológico."
             </p>
             <div class="testimonials__info">
-              <cite class="testimonials__cite"
-                ><strong>Luis Carlos Chaves</strong>
-                <span>CEO, Contalento</span></cite
-              >
+              <cite class="testimonials__cite">
+                <strong>Luis Carlos Chaves</strong>
+                <span>CEO, Contalento</span>
+              </cite>
             </div>
           </div>
+          <!-- end testimonials__slide -->
         </div>
+        <!-- end testimonials__slider -->
       </div>
+      <!-- end testimonials -->
     </section>
+    <!-- end s-testimonials -->
+
+    <!-- contact
+    ================================================== -->
     <section id="contact" class="s-contact ss-dark target-section">
       <div class="row heading-block" data-aos="fade-up">
         <div class="column large-full">
           <h2 class="section-heading">Contáctame</h2>
         </div>
       </div>
+
       <div class="row contact-main" data-aos="fade-up">
         <div class="column large-full">
           <p class="contact-email">
             <a href="mailto:#0">ing.lenninibarra@gmail.com</a>
           </p>
+
           <p class="section-desc">
             ¿Tienes un proyecto desafiante en mente? Me emociona conectar con
             personas y organizaciones que buscan transformar ideas innovadoras
@@ -499,6 +603,7 @@
           </p>
         </div>
       </div>
+
       <div
         class="row contact-infos"
         data-aos="fade-up"
@@ -508,6 +613,7 @@
           <h4>¡construyamos algo extraordinario juntos!</h4>
           <a href="tel:197-543-2345">+57 315 441 5599</a>
         </div>
+
         <div class="column large-7 medium-full contact-social">
           <h4>Social</h4>
           <ul>
@@ -522,17 +628,27 @@
           </ul>
         </div>
       </div>
+      <!-- end contact-infos -->
     </section>
+    <!-- end s-contact -->
+
+    <!-- footer
+    ================================================== -->
     <footer>
       <div class="row">
         <div class="column large-full ss-copyright">
-          <span>© Copyright Epitome</span> <span>Design by StyleShout</span>
+          <span>© Copyright Epitome</span>
+          <span>Design by StyleShout</span>
         </div>
+
         <div class="ss-go-top">
           <a class="smoothscroll" title="Back to Top" href="#top"></a>
         </div>
       </div>
     </footer>
+
+    <!-- photoswipe background
+    ================================================== -->
     <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
       <div class="pswp__bg"></div>
       <div class="pswp__scroll-wrap">
@@ -541,6 +657,7 @@
           <div class="pswp__item"></div>
           <div class="pswp__item"></div>
         </div>
+
         <div class="pswp__ui pswp__ui--hidden">
           <div class="pswp__top-bar">
             <div class="pswp__counter"></div>
@@ -587,6 +704,10 @@
         </div>
       </div>
     </div>
+    <!-- end photoSwipe background -->
+
+    <!-- Java Script
+    ================================================== -->
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
